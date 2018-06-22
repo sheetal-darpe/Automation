@@ -16,7 +16,7 @@ public class HomePage extends CommonPage {
 	public HomePage(WebDriver driver) {
 		super(driver);
 	}
-	// space 
+	/* space */
 	public int CountSlides() {
 		return driver.findElements(By.cssSelector(".slides li")).size();
 		
